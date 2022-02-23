@@ -2,9 +2,10 @@
 <b>Background</b><br>
 <br>
 A prominent investment bank, is interested in offering a new cryptocurrency investment portfolio for its customers. The company, however, is lost in the vast universe of cryptocurrencies. They’ve asked me to create a report that includes what cryptocurrencies are on the trading market and determine whether they can be grouped to create a classification system for this new investment.
-<br>
+<br><br>
 First I processed the raw data to make it fit the machine learning models. Since there is no known classification system, I used unsupervised learning. I used several clustering algorithms to explore whether the cryptocurrencies can be grouped together with other similar cryptocurrencies. I used data visualization to share my findings with the investment bank.
-<br>
+<br><br>
+
 <b>Data Preparation</b><br>
 [x] Read crypto_data.csv into Pandas. The dataset was obtained from CryptoCompare.<br>
 [x] Discard all cryptocurrencies that are not being traded. (Filter for currencies that are currently being traded.)<br>
